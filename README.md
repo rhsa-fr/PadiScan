@@ -165,7 +165,12 @@ Berkas APK hasil kompilasi akan berada di:
 
 Berkas APK mandiri yang siap diinstal langsung ke perangkat Android petani/penyuluh tanpa perlu setup komputer dapat diunduh pada tab [**Releases**](../../releases):
 
-- **PadiScan-v1.0.0-release.apk** (Android 6.0+, Kompatibel ARM64 & ARMv7)
+| Berkas Unduhan | Ukuran | Arsitektur Target | Keterangan |
+|---|:---:|:---:|---|
+| [**PadiScan-v1.0.0-arm64-v8a.apk**](../../releases/download/v1.0.0/PadiScan-v1.0.0-arm64-v8a.apk) | **29,1 MB** | **ARM64 (v8a)** | **Rekomendasi Utama** untuk 99% HP Android modern (RAM $\ge$ 3GB) |
+| [**PadiScan-v1.0.0-armeabi-v7a.apk**](../../releases/download/v1.0.0/PadiScan-v1.0.0-armeabi-v7a.apk) | **24,7 MB** | **ARM 32-bit (v7a)** | Untuk HP Android generasi lama |
+| [**PadiScan-v1.0.0-release.apk**](../../releases/download/v1.0.0/PadiScan-v1.0.0-release.apk) | 74,1 MB | Universal (Semua ABI) | Berisi semua arsitektur (arm64, armv7, x86_64) |
+| [**visikom_mobilenetv2_float16.tflite**](../../releases/download/v1.0.0/visikom_mobilenetv2_float16.tflite) | 4,32 MB | TFLite Runtime | Model bobot AI float16 untuk deployment edge |
 
 ---
 
