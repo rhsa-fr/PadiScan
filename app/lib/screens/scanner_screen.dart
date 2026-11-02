@@ -121,11 +121,11 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
       // 3. Jalankan Pengolahan Citra Klasik (Quality Gate + ExG + CIELab Lesion)
       final cvResult = CVPipelineService.process(decoded);
 
-      // 4. Validasi Objek Bukan Daun: Munculkan Peringatan Modal
+      // 4. Validasi Objek Bukan Daun: Tolak Pemindaian dan Munculkan Modal
       if (!cvResult.isLeaf) {
         if (!mounted) return;
         setState(() => _isProcessing = false);
-        final bool? continueAnyway = await showModalBottomSheet<bool>(
+        await showModalBottomSheet<void>(
           context: context,
           backgroundColor: Colors.white,
           shape: const RoundedRectangleBorder(
@@ -151,55 +151,40 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
                     color: Color(0xFFFEF2F2),
                     shape: BoxShape.circle,
                   ),
-                  child: const Icon(Icons.warning_amber_rounded, size: 40, color: Color(0xFFDC2626)),
+                  child: const Icon(Icons.block_rounded, size: 40, color: Color(0xFFDC2626)),
                 ),
                 const SizedBox(height: 16),
                 const Text(
-                  'Bukan Daun Padi Terdeteksi',
+                  'Citra Ditolak: Bukan Daun Padi',
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Color(0xFF1E293B)),
                 ),
                 const SizedBox(height: 8),
                 const Text(
-                  'Citra yang Anda ambil tidak menunjukkan ciri klorofil atau jaringan daun padi. Hasil prediksi penyakit mungkin tidak valid.\n\nDisarankan untuk mengambil ulang foto daun secara tegak lurus.',
+                  'Sistem visi komputer mendeteksi objek bukan helai daun padi (kandungan klorofil tidak memenuhi syarat).\n\nSilakan arahkan kamera tegak lurus pada helai daun padi.',
                   textAlign: TextAlign.center,
                   style: TextStyle(fontSize: 13, color: Color(0xFF64748B), height: 1.4),
                 ),
                 const SizedBox(height: 24),
-                Row(
-                  children: [
-                    Expanded(
-                      child: OutlinedButton(
-                        onPressed: () => Navigator.pop(ctx, false),
-                        style: OutlinedButton.styleFrom(
-                          padding: const EdgeInsets.symmetric(vertical: 14),
-                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-                        ),
-                        child: const Text('Foto Ulang', style: TextStyle(fontWeight: FontWeight.bold)),
-                      ),
+                SizedBox(
+                  width: double.infinity,
+                  child: ElevatedButton.icon(
+                    icon: const Icon(Icons.camera_alt_outlined, size: 18),
+                    label: const Text('Ambil Foto Daun Ulang', style: TextStyle(fontWeight: FontWeight.bold)),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: AppTheme.primaryContainer,
+                      foregroundColor: Colors.white,
+                      padding: const EdgeInsets.symmetric(vertical: 14),
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
                     ),
-                    const SizedBox(width: 12),
-                    Expanded(
-                      child: ElevatedButton(
-                        onPressed: () => Navigator.pop(ctx, true),
-                        style: ElevatedButton.styleFrom(
-                          backgroundColor: const Color(0xFFDC2626),
-                          padding: const EdgeInsets.symmetric(vertical: 14),
-                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-                        ),
-                        child: const Text('Tetap Analisis', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white)),
-                      ),
-                    ),
-                  ],
+                    onPressed: () => Navigator.pop(ctx),
+                  ),
                 ),
               ],
             ),
           ),
         );
 
-        if (continueAnyway != true || !mounted) {
-          return;
-        }
-        setState(() => _isProcessing = true);
+        return; // Hentikan proses, jangan lanjut ke CNN atau riwayat
       }
 
       // 5. Simpan Citra Tahapan Visi Komputer

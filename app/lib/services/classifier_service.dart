@@ -1,5 +1,4 @@
 import 'dart:io';
-import 'dart:math';
 import 'package:flutter/foundation.dart';
 import 'package:image/image.dart' as img;
 import 'package:tflite_flutter/tflite_flutter.dart';
@@ -41,23 +40,6 @@ class ClassifierService {
       debugPrint('ClassifierService Error loading model: $e');
       rethrow;
     }
-  }
-
-  /// Kalibrasi probabilitas dengan penajaman temperatur (T=0.65)
-  /// untuk mengimbangi label smoothing (0.15 saat training)
-  static List<double> _calibrateProbabilities(List<double> probs, {double temperature = 0.65}) {
-    double sum = 0.0;
-    final List<double> scaled = List.filled(probs.length, 0.0);
-    for (int i = 0; i < probs.length; i++) {
-      scaled[i] = pow(max(probs[i], 1e-6), 1.0 / temperature).toDouble();
-      sum += scaled[i];
-    }
-    if (sum > 0) {
-      for (int i = 0; i < probs.length; i++) {
-        scaled[i] = scaled[i] / sum;
-      }
-    }
-    return scaled;
   }
 
   /// Prediksi citra dari path berkas atau objek img.Image
@@ -119,8 +101,8 @@ class ClassifierService {
     // Jalankan inferensi TFLite
     _interpreter!.run(input, output);
 
-    final rawProbabilities = output[0];
-    final probabilities = _calibrateProbabilities(rawProbabilities);
+    // Gunakan probabilitas softmax murni dari model TFLite (tanpa penajaman artifisial)
+    final probabilities = List<double>.from(output[0]);
 
     int maxIdx = 0;
     double maxConf = probabilities[0];

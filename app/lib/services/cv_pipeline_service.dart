@@ -130,7 +130,8 @@ class CVPipelineService {
     }
     final double meanExg = totalExg / totalPixels;
     final double greenVegRatio = greenVegCount / totalPixels;
-    final bool isLeaf = greenVegRatio >= 0.05 && meanExg > -0.05 && leafAreaRatio >= 0.04;
+    // Daun padi wajib memiliki rata-rata klorofil ExG positif dan area hijau nyata
+    final bool isLeaf = greenVegRatio >= 0.06 && meanExg > 0.0 && leafAreaRatio >= 0.05;
     if (!isLeaf) {
       rejectReasons.add('Objek bukan daun padi (tidak terdeteksi klorofil/jaringan tanaman)');
     }
