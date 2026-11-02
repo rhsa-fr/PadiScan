@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient (Deep Emerald Agriculture Dark Tech) -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064E24"/>
+      <stop offset="50%" stop-color="#042F17"/>
+      <stop offset="100%" stop-color="#021C0D"/>
+    </linearGradient>
+
+    <!-- Subtle Radial Glow Behind Leaf -->
+    <radialGradient id="centerGlow" cx="50%" cy="45%" r="45%">
+      <stop offset="0%" stop-color="#22C55E" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#042F17" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Gradasi Daun Padi Utama -->
+    <linearGradient id="leafGrad" x1="15%" y1="85%" x2="85%" y2="15%">
+      <stop offset="0%" stop-color="#059642"/>
+      <stop offset="45%" stop-color="#22C55E"/>
+      <stop offset="100%" stop-color="#86EFAC"/>
+    </linearGradient>
+
+    <!-- Gradasi Daun Sekunder -->
+    <linearGradient id="leafSecGrad" x1="20%" y1="80%" x2="70%" y2="25%">
+      <stop offset="0%" stop-color="#047857"/>
+      <stop offset="60%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#6EE7B7"/>
+    </linearGradient>
+
+    <!-- Gradasi Nodus Emas AI -->
+    <radialGradient id="goldNode" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FEF08A"/>
+      <stop offset="60%" stop-color="#FACC15"/>
+      <stop offset="100%" stop-color="#CA8A04"/>
+    </radialGradient>
+
+    <!-- Gradasi Scanner Laser Beam -->
+    <linearGradient id="laserGrad" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#22C55E" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#4ADE80" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#ECFDF5" stop-opacity="1"/>
+      <stop offset="70%" stop-color="#4ADE80" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#22C55E" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Filter Neon Glow -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ADE80" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#15803D" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base Container (Squircle) -->
+  <rect x="0" y="0" width="512" height="512" rx="115" fill="url(#bgGrad)" />
+  <rect x="2" y="2" width="508" height="508" rx="113" fill="none" stroke="url(#borderGrad)" stroke-width="3" />
+  
+  <!-- Radial Center Ambient Glow -->
+  <circle cx="256" cy="245" r="210" fill="url(#centerGlow)" />
+
+  <!-- Lingkaran Reticle Scanner Luar -->
+  <circle cx="256" cy="256" r="185" fill="none" stroke="#22C55E" stroke-width="3" stroke-opacity="0.25" stroke-dasharray="12 8" />
+  
+  <!-- L-Bracket Viewfinder Corners (HUD) -->
+  <!-- Kiri Atas -->
+  <path d="M 125 180 L 125 135 A 10 10 0 0 1 135 125 L 180 125" fill="none" stroke="#4ADE80" stroke-width="7" stroke-linecap="round" />
+  <!-- Kanan Atas -->
+  <path d="M 332 125 L 377 125 A 10 10 0 0 1 387 135 L 387 180" fill="none" stroke="#4ADE80" stroke-width="7" stroke-linecap="round" />
+  <!-- Kiri Bawah -->
+  <path d="M 125 332 L 125 377 A 10 10 0 0 0 135 387 L 180 387" fill="none" stroke="#4ADE80" stroke-width="7" stroke-linecap="round" />
+  <!-- Kanan Bawah -->
+  <path d="M 332 387 L 377 387 A 10 10 0 0 0 387 377 L 387 332" fill="none" stroke="#4ADE80" stroke-width="7" stroke-linecap="round" />
+
+  <!-- Daun Sekunder -->
+  <path d="M 195 370 C 185 285 235 190 320 148 C 275 220 262 290 195 370 Z" fill="url(#leafSecGrad)" opacity="0.6" />
+
+  <!-- Daun Utama Padi (Bentuk Ikonik PadiScan) -->
+  <path d="M 152 385 C 140 240 238 118 395 105 C 326 220 282 324 152 385 Z" fill="url(#leafGrad)" />
+
+  <!-- Tulang Daun Minimalis -->
+  <path d="M 172 366 Q 262 238 376 122" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" stroke-opacity="0.9" />
+
+  <!-- Garis Laser Horizontal Scanner -->
+  <rect x="110" y="248" width="292" height="6" rx="3" fill="url(#laserGrad)" filter="url(#neonGlow)" />
+
+  <!-- Nodus Digital AI & Bulir Padi Emas (Pucuk Daun) -->
+  <circle cx="395" cy="105" r="28" fill="none" stroke="#FACC15" stroke-width="3.5" stroke-opacity="0.45" stroke-dasharray="5 5" />
+  <circle cx="395" cy="105" r="16" fill="url(#goldNode)" filter="url(#neonGlow)" />
+  <circle cx="391" cy="101" r="4.5" fill="#FFFFFF" opacity="0.9" />
+
+  <!-- Satelit Nodus AI Circuit -->
+  <line x1="376" y1="122" x2="335" y2="160" stroke="#86EFAC" stroke-width="2.5" stroke-dasharray="4 4" stroke-opacity="0.75" />
+  <circle cx="335" cy="160" r="5" fill="#86EFAC" />
+  <circle cx="230" cy="220" r="4.5" fill="#4ADE80" />
+</svg>
