@@ -1,0 +1,38 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Flutter / Dart
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/.packages
+app/build/
+app/.pub-cache/
+app/.pub/
+
+# Android build outputs in Flutter app (except release folder if any)
+app/android/.gradle/
+app/android/local.properties
+app/android/app/build/
+
+# IDE & OS
+.commandcode/
+.opencode/
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Archives & Temporary
+*.zip
+*.tar.gz
+*.tmp

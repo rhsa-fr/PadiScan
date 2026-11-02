@@ -1,0 +1,1201 @@
+image_id,label,visikom_class,file_path
+105912.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105912.jpg
+100962.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/100962.jpg
+105429.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/105429.jpg
+100213.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100213.jpg
+106141.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106141.jpg
+103619.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103619.jpg
+103808.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103808.jpg
+106493.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106493.jpg
+104093.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104093.jpg
+106163.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106163.jpg
+101566.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101566.jpg
+110400.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/110400.jpg
+109422.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109422.jpg
+101081.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101081.jpg
+110213.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/110213.jpg
+100542.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100542.jpg
+109601.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109601.jpg
+103922.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103922.jpg
+110310.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/110310.jpg
+103683.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103683.jpg
+100410.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100410.jpg
+100387.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/100387.jpg
+103567.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103567.jpg
+100702.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100702.jpg
+101818.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101818.jpg
+108415.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108415.jpg
+101998.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101998.jpg
+104913.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104913.jpg
+104522.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104522.jpg
+110157.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/110157.jpg
+103577.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103577.jpg
+106697.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106697.jpg
+102690.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102690.jpg
+102651.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102651.jpg
+100208.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100208.jpg
+108739.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/108739.jpg
+106549.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/106549.jpg
+109173.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109173.jpg
+102964.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102964.jpg
+102593.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102593.jpg
+109931.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109931.jpg
+105522.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/105522.jpg
+100753.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/100753.jpg
+108154.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/108154.jpg
+107490.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107490.jpg
+108658.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/108658.jpg
+104943.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104943.jpg
+102639.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102639.jpg
+108429.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108429.jpg
+103734.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/103734.jpg
+106014.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106014.jpg
+107304.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107304.jpg
+107137.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107137.jpg
+100133.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100133.jpg
+105517.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105517.jpg
+100780.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100780.jpg
+101075.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101075.jpg
+101450.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101450.jpg
+104528.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/104528.jpg
+102266.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102266.jpg
+110177.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/110177.jpg
+107466.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107466.jpg
+107643.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107643.jpg
+101798.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101798.jpg
+107904.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107904.jpg
+102937.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102937.jpg
+109249.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109249.jpg
+105163.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105163.jpg
+109840.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109840.jpg
+100888.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100888.jpg
+109284.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109284.jpg
+100548.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100548.jpg
+107975.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107975.jpg
+106280.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106280.jpg
+103355.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/103355.jpg
+106045.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/106045.jpg
+109275.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109275.jpg
+109372.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109372.jpg
+100940.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/100940.jpg
+104927.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104927.jpg
+100604.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/100604.jpg
+102038.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102038.jpg
+101094.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101094.jpg
+108883.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108883.jpg
+100907.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100907.jpg
+107315.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107315.jpg
+103246.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103246.jpg
+108005.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108005.jpg
+108029.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/108029.jpg
+104183.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104183.jpg
+106810.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/106810.jpg
+108318.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/108318.jpg
+104639.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/104639.jpg
+107511.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107511.jpg
+107545.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107545.jpg
+107565.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/107565.jpg
+103688.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103688.jpg
+108180.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/108180.jpg
+100162.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100162.jpg
+103205.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/103205.jpg
+105868.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105868.jpg
+107284.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107284.jpg
+105843.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/105843.jpg
+101428.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101428.jpg
+108065.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108065.jpg
+105350.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/105350.jpg
+108785.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/108785.jpg
+106057.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106057.jpg
+106127.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106127.jpg
+110267.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/110267.jpg
+105846.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105846.jpg
+109050.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/109050.jpg
+109067.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109067.jpg
+100442.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/100442.jpg
+105459.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/105459.jpg
+106034.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106034.jpg
+103051.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/103051.jpg
+106388.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106388.jpg
+108280.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108280.jpg
+107928.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107928.jpg
+101376.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/101376.jpg
+108300.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/108300.jpg
+107667.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107667.jpg
+107659.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107659.jpg
+104003.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104003.jpg
+102643.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102643.jpg
+100916.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100916.jpg
+105878.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/105878.jpg
+106505.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106505.jpg
+102256.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102256.jpg
+103097.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/103097.jpg
+105148.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105148.jpg
+103897.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103897.jpg
+108320.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108320.jpg
+108418.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/108418.jpg
+101936.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101936.jpg
+105914.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/105914.jpg
+104888.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104888.jpg
+101703.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/101703.jpg
+107815.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107815.jpg
+109022.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109022.jpg
+109915.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/109915.jpg
+109382.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109382.jpg
+108544.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108544.jpg
+100344.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/100344.jpg
+108980.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/108980.jpg
+109829.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/109829.jpg
+105971.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/105971.jpg
+108295.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/108295.jpg
+101265.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/101265.jpg
+103483.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103483.jpg
+105253.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105253.jpg
+102787.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102787.jpg
+106698.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106698.jpg
+103958.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103958.jpg
+109641.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109641.jpg
+103959.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103959.jpg
+101933.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101933.jpg
+106569.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106569.jpg
+100971.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100971.jpg
+100605.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/100605.jpg
+105944.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105944.jpg
+109374.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109374.jpg
+109441.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109441.jpg
+107532.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107532.jpg
+105727.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/105727.jpg
+106295.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106295.jpg
+110335.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/110335.jpg
+101327.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101327.jpg
+102935.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102935.jpg
+102537.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102537.jpg
+103772.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103772.jpg
+109376.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109376.jpg
+101659.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101659.jpg
+108748.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108748.jpg
+100785.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100785.jpg
+108697.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108697.jpg
+100436.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/100436.jpg
+100234.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100234.jpg
+102805.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102805.jpg
+103353.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103353.jpg
+107283.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/107283.jpg
+109870.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109870.jpg
+110102.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/110102.jpg
+100998.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100998.jpg
+106646.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106646.jpg
+105698.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105698.jpg
+109912.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/109912.jpg
+107762.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107762.jpg
+107661.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107661.jpg
+101111.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101111.jpg
+100762.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/100762.jpg
+105306.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/105306.jpg
+105775.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/105775.jpg
+110240.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/110240.jpg
+103048.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/103048.jpg
+100289.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100289.jpg
+110164.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/110164.jpg
+102562.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102562.jpg
+101886.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101886.jpg
+107460.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/107460.jpg
+102538.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102538.jpg
+106978.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106978.jpg
+103785.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103785.jpg
+103801.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103801.jpg
+103177.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/103177.jpg
+101346.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101346.jpg
+100131.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/100131.jpg
+107122.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/107122.jpg
+109812.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109812.jpg
+106608.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106608.jpg
+102279.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102279.jpg
+101011.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/101011.jpg
+109433.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/109433.jpg
+102553.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102553.jpg
+107829.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107829.jpg
+104875.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104875.jpg
+100709.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100709.jpg
+107910.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/107910.jpg
+107595.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107595.jpg
+107636.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107636.jpg
+109038.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109038.jpg
+102140.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102140.jpg
+108582.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/108582.jpg
+105291.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/105291.jpg
+100343.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100343.jpg
+103045.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103045.jpg
+108353.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108353.jpg
+106272.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106272.jpg
+106999.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106999.jpg
+108820.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/108820.jpg
+101473.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101473.jpg
+109342.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109342.jpg
+106161.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106161.jpg
+102474.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102474.jpg
+103155.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103155.jpg
+106404.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106404.jpg
+104040.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104040.jpg
+108685.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/108685.jpg
+107060.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/107060.jpg
+110160.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/110160.jpg
+100041.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100041.jpg
+109219.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109219.jpg
+100025.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/100025.jpg
+105374.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/105374.jpg
+105900.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105900.jpg
+104044.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104044.jpg
+107215.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107215.jpg
+103606.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/103606.jpg
+103056.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/103056.jpg
+100111.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/100111.jpg
+108838.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/108838.jpg
+107135.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107135.jpg
+103187.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/103187.jpg
+106973.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106973.jpg
+101499.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101499.jpg
+100733.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100733.jpg
+109380.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109380.jpg
+101420.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101420.jpg
+106696.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106696.jpg
+103492.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103492.jpg
+105353.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105353.jpg
+101308.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101308.jpg
+109997.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/109997.jpg
+108485.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108485.jpg
+103109.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103109.jpg
+102864.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102864.jpg
+102827.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102827.jpg
+109039.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109039.jpg
+104201.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104201.jpg
+101121.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/101121.jpg
+100274.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/100274.jpg
+109502.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/109502.jpg
+100547.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/100547.jpg
+102488.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102488.jpg
+107178.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107178.jpg
+108183.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108183.jpg
+103637.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/103637.jpg
+102992.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102992.jpg
+102206.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102206.jpg
+101172.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101172.jpg
+102688.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102688.jpg
+104347.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/104347.jpg
+106792.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106792.jpg
+106512.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106512.jpg
+106023.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106023.jpg
+106688.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106688.jpg
+100802.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/100802.jpg
+104169.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104169.jpg
+102317.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102317.jpg
+101679.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/101679.jpg
+106398.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106398.jpg
+104821.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104821.jpg
+110243.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/110243.jpg
+101485.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101485.jpg
+107045.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/107045.jpg
+100690.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100690.jpg
+103806.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103806.jpg
+106950.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106950.jpg
+110166.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/110166.jpg
+105907.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/105907.jpg
+109800.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109800.jpg
+107619.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107619.jpg
+100373.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/100373.jpg
+110032.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/110032.jpg
+108973.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108973.jpg
+107132.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107132.jpg
+102582.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102582.jpg
+102071.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102071.jpg
+104164.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104164.jpg
+105823.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/105823.jpg
+108231.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108231.jpg
+108464.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/108464.jpg
+102949.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102949.jpg
+108631.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108631.jpg
+107320.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107320.jpg
+110050.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/110050.jpg
+104919.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/104919.jpg
+109037.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/109037.jpg
+106775.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106775.jpg
+100729.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/100729.jpg
+109446.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109446.jpg
+107893.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107893.jpg
+102812.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102812.jpg
+103745.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103745.jpg
+104011.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104011.jpg
+100109.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/100109.jpg
+105648.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/105648.jpg
+102694.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102694.jpg
+102166.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102166.jpg
+109161.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109161.jpg
+101649.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101649.jpg
+105570.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/105570.jpg
+107202.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107202.jpg
+100731.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/100731.jpg
+109875.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109875.jpg
+108160.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108160.jpg
+105250.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/105250.jpg
+101213.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101213.jpg
+106964.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106964.jpg
+109049.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109049.jpg
+109964.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109964.jpg
+103759.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103759.jpg
+105143.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/105143.jpg
+104178.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104178.jpg
+103123.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103123.jpg
+100575.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/100575.jpg
+109026.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109026.jpg
+103565.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103565.jpg
+103099.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103099.jpg
+102648.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102648.jpg
+105046.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/105046.jpg
+108340.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108340.jpg
+102431.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102431.jpg
+100953.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100953.jpg
+104702.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/104702.jpg
+103438.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103438.jpg
+100956.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100956.jpg
+106363.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106363.jpg
+101229.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101229.jpg
+106682.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/106682.jpg
+101938.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101938.jpg
+108673.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108673.jpg
+104418.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/104418.jpg
+109070.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109070.jpg
+104392.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/104392.jpg
+102940.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102940.jpg
+109362.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109362.jpg
+105308.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/105308.jpg
+107263.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/107263.jpg
+108994.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/108994.jpg
+107781.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107781.jpg
+100627.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/100627.jpg
+101110.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/101110.jpg
+103891.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103891.jpg
+102917.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102917.jpg
+105294.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105294.jpg
+102658.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102658.jpg
+109780.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109780.jpg
+102082.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102082.jpg
+100933.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/100933.jpg
+103289.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103289.jpg
+103796.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103796.jpg
+102598.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102598.jpg
+102496.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102496.jpg
+101007.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101007.jpg
+110315.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/110315.jpg
+108471.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108471.jpg
+102667.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102667.jpg
+104319.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104319.jpg
+109974.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/109974.jpg
+110004.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/110004.jpg
+100277.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/100277.jpg
+109666.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109666.jpg
+104689.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104689.jpg
+107301.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107301.jpg
+110346.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/110346.jpg
+106156.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/106156.jpg
+106663.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106663.jpg
+102415.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102415.jpg
+106725.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/106725.jpg
+102892.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102892.jpg
+106232.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106232.jpg
+106464.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106464.jpg
+101051.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/101051.jpg
+106545.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106545.jpg
+101318.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/101318.jpg
+109304.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109304.jpg
+103701.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103701.jpg
+101967.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101967.jpg
+105176.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105176.jpg
+101533.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/101533.jpg
+101241.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101241.jpg
+106713.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106713.jpg
+108721.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/108721.jpg
+101381.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101381.jpg
+103809.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103809.jpg
+108062.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108062.jpg
+100096.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100096.jpg
+107017.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107017.jpg
+110382.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/110382.jpg
+106811.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106811.jpg
+101063.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101063.jpg
+104884.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104884.jpg
+103342.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103342.jpg
+106142.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106142.jpg
+103916.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103916.jpg
+108727.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108727.jpg
+105765.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/105765.jpg
+105008.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/105008.jpg
+103031.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103031.jpg
+104448.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/104448.jpg
+102190.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102190.jpg
+103446.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103446.jpg
+102859.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102859.jpg
+102030.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102030.jpg
+108502.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/108502.jpg
+105151.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/105151.jpg
+103548.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103548.jpg
+102555.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102555.jpg
+102586.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102586.jpg
+109019.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109019.jpg
+101416.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101416.jpg
+110155.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/110155.jpg
+105360.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105360.jpg
+101348.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101348.jpg
+109089.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/109089.jpg
+101616.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101616.jpg
+101602.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101602.jpg
+108929.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108929.jpg
+108605.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108605.jpg
+102814.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102814.jpg
+107270.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107270.jpg
+100638.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/100638.jpg
+100080.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/100080.jpg
+101713.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/101713.jpg
+109844.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109844.jpg
+106099.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106099.jpg
+101749.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101749.jpg
+108243.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/108243.jpg
+101609.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/101609.jpg
+103435.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/103435.jpg
+105926.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105926.jpg
+101187.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101187.jpg
+108371.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108371.jpg
+105003.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105003.jpg
+110287.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/110287.jpg
+104353.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104353.jpg
+105853.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105853.jpg
+108174.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/108174.jpg
+108665.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108665.jpg
+107663.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107663.jpg
+102041.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102041.jpg
+102773.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102773.jpg
+103505.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103505.jpg
+106497.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/106497.jpg
+102338.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102338.jpg
+100382.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100382.jpg
+104700.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104700.jpg
+108199.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108199.jpg
+110169.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/110169.jpg
+103592.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103592.jpg
+109435.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109435.jpg
+100692.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100692.jpg
+101702.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101702.jpg
+109460.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109460.jpg
+102786.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102786.jpg
+105856.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/105856.jpg
+109835.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109835.jpg
+103892.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103892.jpg
+101966.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101966.jpg
+104428.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/104428.jpg
+105993.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/105993.jpg
+100064.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100064.jpg
+102427.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102427.jpg
+104624.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104624.jpg
+105990.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105990.jpg
+102354.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102354.jpg
+109131.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109131.jpg
+110219.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/110219.jpg
+106893.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106893.jpg
+106582.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/106582.jpg
+105244.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105244.jpg
+105833.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105833.jpg
+108867.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/108867.jpg
+104033.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104033.jpg
+101800.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101800.jpg
+104506.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104506.jpg
+103448.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103448.jpg
+104271.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/104271.jpg
+105126.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105126.jpg
+109363.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/109363.jpg
+107535.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107535.jpg
+107319.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107319.jpg
+106649.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106649.jpg
+104508.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/104508.jpg
+100516.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100516.jpg
+102173.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102173.jpg
+110064.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/110064.jpg
+100982.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100982.jpg
+104635.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/104635.jpg
+106383.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106383.jpg
+106984.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106984.jpg
+102544.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102544.jpg
+106263.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106263.jpg
+107880.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107880.jpg
+103670.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103670.jpg
+109289.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109289.jpg
+104467.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104467.jpg
+107594.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107594.jpg
+107374.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107374.jpg
+107326.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107326.jpg
+109369.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109369.jpg
+101466.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101466.jpg
+106312.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/106312.jpg
+106072.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106072.jpg
+109013.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109013.jpg
+108767.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/108767.jpg
+109315.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109315.jpg
+100354.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100354.jpg
+108470.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/108470.jpg
+104762.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104762.jpg
+101173.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101173.jpg
+105076.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105076.jpg
+103869.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103869.jpg
+102459.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102459.jpg
+100642.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/100642.jpg
+104827.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/104827.jpg
+104212.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104212.jpg
+103924.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103924.jpg
+110388.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/110388.jpg
+100233.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100233.jpg
+103053.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103053.jpg
+102440.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102440.jpg
+101553.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101553.jpg
+109442.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/109442.jpg
+105880.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/105880.jpg
+106067.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106067.jpg
+105918.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105918.jpg
+110044.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/110044.jpg
+106402.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106402.jpg
+100082.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/100082.jpg
+105412.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105412.jpg
+107344.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107344.jpg
+108691.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/108691.jpg
+105207.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105207.jpg
+101555.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101555.jpg
+108844.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108844.jpg
+102452.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102452.jpg
+109588.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109588.jpg
+107162.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107162.jpg
+104752.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/104752.jpg
+104671.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104671.jpg
+106203.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106203.jpg
+103576.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103576.jpg
+100653.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100653.jpg
+102873.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102873.jpg
+107469.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107469.jpg
+100092.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/100092.jpg
+102240.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102240.jpg
+108599.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108599.jpg
+104603.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104603.jpg
+108190.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108190.jpg
+103104.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103104.jpg
+105916.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105916.jpg
+108422.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108422.jpg
+103995.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103995.jpg
+100231.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/100231.jpg
+105551.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105551.jpg
+103310.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103310.jpg
+109355.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/109355.jpg
+106117.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106117.jpg
+109112.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109112.jpg
+102659.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102659.jpg
+105882.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105882.jpg
+107733.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107733.jpg
+108150.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108150.jpg
+106622.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106622.jpg
+107474.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107474.jpg
+102114.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102114.jpg
+105831.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105831.jpg
+109375.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109375.jpg
+104458.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/104458.jpg
+104273.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/104273.jpg
+109494.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109494.jpg
+108419.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/108419.jpg
+106890.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/106890.jpg
+103321.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103321.jpg
+100393.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100393.jpg
+103249.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103249.jpg
+101935.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101935.jpg
+107022.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107022.jpg
+100320.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100320.jpg
+104233.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/104233.jpg
+106938.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106938.jpg
+102841.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102841.jpg
+105248.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105248.jpg
+109910.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109910.jpg
+105451.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105451.jpg
+108976.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108976.jpg
+102480.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102480.jpg
+101198.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101198.jpg
+107005.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107005.jpg
+103449.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103449.jpg
+102975.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102975.jpg
+104640.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104640.jpg
+106629.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106629.jpg
+104314.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/104314.jpg
+110068.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/110068.jpg
+101013.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101013.jpg
+103686.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/103686.jpg
+100286.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/100286.jpg
+107254.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107254.jpg
+106267.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106267.jpg
+109250.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/109250.jpg
+103910.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103910.jpg
+101516.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101516.jpg
+104055.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/104055.jpg
+106016.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106016.jpg
+109060.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/109060.jpg
+104014.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104014.jpg
+105937.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/105937.jpg
+101497.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101497.jpg
+100469.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/100469.jpg
+105270.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105270.jpg
+100486.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100486.jpg
+100023.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100023.jpg
+101418.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101418.jpg
+106701.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106701.jpg
+108208.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108208.jpg
+107900.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107900.jpg
+107804.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107804.jpg
+102510.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102510.jpg
+101910.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101910.jpg
+101674.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/101674.jpg
+104771.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104771.jpg
+101857.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101857.jpg
+103397.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103397.jpg
+106928.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106928.jpg
+107558.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107558.jpg
+107539.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107539.jpg
+104534.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104534.jpg
+101593.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101593.jpg
+101004.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101004.jpg
+108766.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/108766.jpg
+106114.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106114.jpg
+107464.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107464.jpg
+108018.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108018.jpg
+109360.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109360.jpg
+105509.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105509.jpg
+109214.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109214.jpg
+110180.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/110180.jpg
+103778.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103778.jpg
+107056.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/107056.jpg
+102241.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102241.jpg
+100199.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/100199.jpg
+101202.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101202.jpg
+100240.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/100240.jpg
+106796.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/106796.jpg
+109317.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/109317.jpg
+104924.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104924.jpg
+100266.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100266.jpg
+101853.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/101853.jpg
+100637.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/100637.jpg
+109209.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109209.jpg
+104476.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/104476.jpg
+104002.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104002.jpg
+105182.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105182.jpg
+104053.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/104053.jpg
+101777.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101777.jpg
+103941.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103941.jpg
+108564.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/108564.jpg
+108044.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/108044.jpg
+103803.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103803.jpg
+100148.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100148.jpg
+103128.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103128.jpg
+108337.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108337.jpg
+106315.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106315.jpg
+109768.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109768.jpg
+105613.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105613.jpg
+101153.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/101153.jpg
+109967.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/109967.jpg
+109464.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109464.jpg
+108718.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/108718.jpg
+108526.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108526.jpg
+100820.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100820.jpg
+100418.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/100418.jpg
+109113.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109113.jpg
+108257.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108257.jpg
+101467.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101467.jpg
+107848.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107848.jpg
+100142.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100142.jpg
+107021.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107021.jpg
+100075.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/100075.jpg
+101446.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/101446.jpg
+105051.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/105051.jpg
+109763.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109763.jpg
+101594.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101594.jpg
+103526.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103526.jpg
+106525.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106525.jpg
+102218.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102218.jpg
+106744.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106744.jpg
+103611.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103611.jpg
+101226.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101226.jpg
+108668.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108668.jpg
+107361.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107361.jpg
+100681.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100681.jpg
+103901.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103901.jpg
+100361.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100361.jpg
+109642.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/109642.jpg
+106947.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106947.jpg
+104277.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104277.jpg
+102420.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102420.jpg
+106794.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106794.jpg
+109950.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109950.jpg
+104238.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104238.jpg
+105794.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/105794.jpg
+109576.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109576.jpg
+106244.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106244.jpg
+100215.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/100215.jpg
+103144.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103144.jpg
+103593.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103593.jpg
+104733.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/104733.jpg
+106596.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/106596.jpg
+100671.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100671.jpg
+100954.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/100954.jpg
+104657.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/104657.jpg
+107296.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107296.jpg
+107109.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107109.jpg
+106354.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106354.jpg
+110079.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/110079.jpg
+108399.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/108399.jpg
+106853.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106853.jpg
+105669.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/105669.jpg
+108855.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108855.jpg
+104295.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104295.jpg
+108487.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108487.jpg
+106869.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/106869.jpg
+110142.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/110142.jpg
+109831.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109831.jpg
+101391.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101391.jpg
+107787.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107787.jpg
+109004.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109004.jpg
+108713.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/108713.jpg
+110126.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/110126.jpg
+105031.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/105031.jpg
+101995.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101995.jpg
+104518.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/104518.jpg
+106236.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/106236.jpg
+109212.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109212.jpg
+109941.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109941.jpg
+108078.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108078.jpg
+107364.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/107364.jpg
+109193.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109193.jpg
+101414.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101414.jpg
+103714.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103714.jpg
+105433.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/105433.jpg
+105130.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/105130.jpg
+105233.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105233.jpg
+101367.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101367.jpg
+102323.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102323.jpg
+106812.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106812.jpg
+102419.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102419.jpg
+107536.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/107536.jpg
+109108.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109108.jpg
+103380.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/103380.jpg
+105154.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/105154.jpg
+101396.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101396.jpg
+103314.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103314.jpg
+102950.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102950.jpg
+102124.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102124.jpg
+109530.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109530.jpg
+106861.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106861.jpg
+100985.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/100985.jpg
+107220.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107220.jpg
+102516.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102516.jpg
+104583.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104583.jpg
+105255.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/105255.jpg
+108274.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/108274.jpg
+106375.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106375.jpg
+104942.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/104942.jpg
+106949.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106949.jpg
+104690.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/104690.jpg
+106977.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106977.jpg
+103240.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103240.jpg
+100582.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100582.jpg
+106005.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106005.jpg
+105566.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105566.jpg
+105585.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105585.jpg
+109083.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109083.jpg
+106907.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106907.jpg
+108222.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108222.jpg
+104879.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104879.jpg
+110216.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/110216.jpg
+106367.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/106367.jpg
+105299.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/105299.jpg
+107453.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107453.jpg
+107036.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107036.jpg
+108046.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108046.jpg
+107645.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107645.jpg
+107776.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107776.jpg
+106143.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106143.jpg
+103430.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103430.jpg
+106419.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106419.jpg
+108655.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108655.jpg
+104961.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104961.jpg
+104358.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104358.jpg
+102885.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102885.jpg
+107592.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107592.jpg
+105582.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105582.jpg
+104846.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104846.jpg
+104923.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104923.jpg
+103453.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103453.jpg
+109968.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109968.jpg
+109694.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109694.jpg
+100513.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100513.jpg
+103156.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103156.jpg
+109514.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109514.jpg
+108372.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108372.jpg
+109863.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109863.jpg
+104703.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104703.jpg
+103062.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103062.jpg
+107142.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107142.jpg
+103501.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103501.jpg
+107189.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107189.jpg
+102602.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102602.jpg
+102228.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102228.jpg
+104977.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104977.jpg
+106413.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106413.jpg
+109775.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109775.jpg
+105979.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/105979.jpg
+101197.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101197.jpg
+109248.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109248.jpg
+109951.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109951.jpg
+109668.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/109668.jpg
+102478.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102478.jpg
+109258.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109258.jpg
+107873.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107873.jpg
+109952.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/109952.jpg
+100419.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/100419.jpg
+108338.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108338.jpg
+110277.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/110277.jpg
+106752.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106752.jpg
+105061.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105061.jpg
+101563.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101563.jpg
+108097.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108097.jpg
+102213.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102213.jpg
+108858.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/108858.jpg
+101681.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101681.jpg
+107418.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/107418.jpg
+108974.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108974.jpg
+105272.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/105272.jpg
+103343.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103343.jpg
+102238.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102238.jpg
+102828.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102828.jpg
+104315.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/104315.jpg
+108796.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108796.jpg
+100169.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100169.jpg
+103445.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103445.jpg
+107727.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/107727.jpg
+109292.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/109292.jpg
+106510.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106510.jpg
+110391.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/110391.jpg
+100567.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100567.jpg
+100890.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100890.jpg
+104191.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/104191.jpg
+103589.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103589.jpg
+108580.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108580.jpg
+102189.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102189.jpg
+103621.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103621.jpg
+109980.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109980.jpg
+100268.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100268.jpg
+108386.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/108386.jpg
+104432.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/104432.jpg
+107692.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107692.jpg
+103389.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/103389.jpg
+107472.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107472.jpg
+109970.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109970.jpg
+103276.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/103276.jpg
+109905.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109905.jpg
+103787.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103787.jpg
+107413.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107413.jpg
+105840.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105840.jpg
+103283.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103283.jpg
+102247.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102247.jpg
+106888.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106888.jpg
+105668.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105668.jpg
+106353.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106353.jpg
+100649.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100649.jpg
+104824.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/104824.jpg
+101802.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101802.jpg
+107714.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107714.jpg
+104092.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/104092.jpg
+106916.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106916.jpg
+104751.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/104751.jpg
+107503.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107503.jpg
+105479.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105479.jpg
+103305.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103305.jpg
+104817.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104817.jpg
+108102.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108102.jpg
+106028.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106028.jpg
+102322.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102322.jpg
+107182.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/107182.jpg
+105862.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105862.jpg
+105777.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105777.jpg
+106289.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/106289.jpg
+107389.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/107389.jpg
+110100.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/110100.jpg
+102471.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102471.jpg
+109306.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109306.jpg
+103837.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103837.jpg
+103780.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103780.jpg
+108039.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108039.jpg
+104543.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/104543.jpg
+109148.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109148.jpg
+101212.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101212.jpg
+106780.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/106780.jpg
+110179.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/110179.jpg
+103477.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103477.jpg
+109751.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109751.jpg
+106807.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106807.jpg
+109158.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/109158.jpg
+104972.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104972.jpg
+106202.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106202.jpg
+102367.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102367.jpg
+108217.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/108217.jpg
+102817.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102817.jpg
+103167.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103167.jpg
+104466.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104466.jpg
+106770.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106770.jpg
+100398.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/100398.jpg
+104396.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104396.jpg
+109421.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109421.jpg
+106566.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106566.jpg
+100623.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100623.jpg
+109311.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109311.jpg
+102275.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102275.jpg
+102303.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102303.jpg
+106395.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106395.jpg
+104997.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/104997.jpg
+100756.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/100756.jpg
+106976.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106976.jpg
+104776.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/104776.jpg
+104541.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104541.jpg
+106158.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/106158.jpg
+107161.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/107161.jpg
+102596.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102596.jpg
+103071.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103071.jpg
+102969.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102969.jpg
+103171.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103171.jpg
+101809.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101809.jpg
+102062.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102062.jpg
+102259.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102259.jpg
+106424.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/106424.jpg
+109672.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109672.jpg
+100447.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100447.jpg
+110306.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/110306.jpg
+101848.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101848.jpg
+101537.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101537.jpg
+105180.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/105180.jpg
+109440.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109440.jpg
+107493.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107493.jpg
+101979.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101979.jpg
+102447.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102447.jpg
+104806.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104806.jpg
+107547.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107547.jpg
+102527.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102527.jpg
+101044.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101044.jpg
+104038.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/104038.jpg
+101919.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101919.jpg
+101072.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/101072.jpg
+103848.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103848.jpg
+100230.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/100230.jpg
+102904.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102904.jpg
+100851.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/100851.jpg
+109021.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109021.jpg
+110171.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/110171.jpg
+106760.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/106760.jpg
+109298.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109298.jpg
+102313.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102313.jpg
+102128.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102128.jpg
+100597.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/100597.jpg
+109846.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109846.jpg
+107817.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107817.jpg
+105293.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105293.jpg
+103340.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103340.jpg
+108444.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108444.jpg
+103432.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103432.jpg
+109724.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109724.jpg
+107589.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/107589.jpg
+104130.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104130.jpg
+106088.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106088.jpg
+102224.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102224.jpg
+106248.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/106248.jpg
+104792.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104792.jpg
+103011.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103011.jpg
+100154.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/100154.jpg
+104430.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/104430.jpg
+104106.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/104106.jpg
+110109.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/110109.jpg
+103549.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103549.jpg
+100054.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100054.jpg
+108897.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/108897.jpg
+108181.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/108181.jpg
+102616.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102616.jpg
+102706.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102706.jpg
+104906.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104906.jpg
+103425.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103425.jpg
+100126.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100126.jpg
+101123.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101123.jpg
+103702.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/103702.jpg
+108385.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108385.jpg
+103970.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103970.jpg
+105544.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/105544.jpg
+105706.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/105706.jpg
+103552.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/103552.jpg
+103032.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/103032.jpg
+106451.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106451.jpg
+102942.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102942.jpg
+101652.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101652.jpg
+105561.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/105561.jpg
+107603.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/107603.jpg
+101812.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101812.jpg
+102685.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102685.jpg
+105410.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105410.jpg
+104670.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104670.jpg
+105443.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/105443.jpg
+107007.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/107007.jpg
+103458.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/103458.jpg
+109673.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109673.jpg
+106456.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106456.jpg
+108771.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/108771.jpg
+105103.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105103.jpg
+103596.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103596.jpg
+101612.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101612.jpg
+102813.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102813.jpg
+104560.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104560.jpg
+104107.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104107.jpg
+101551.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101551.jpg
+108003.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/108003.jpg
+102718.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102718.jpg
+104896.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104896.jpg
+102514.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102514.jpg
+107608.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107608.jpg
+106914.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106914.jpg
+108388.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108388.jpg
+101686.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101686.jpg
+103294.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103294.jpg
+103122.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103122.jpg
+103146.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103146.jpg
+100232.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100232.jpg
+101707.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101707.jpg
+103267.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103267.jpg
+103846.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103846.jpg
+101567.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101567.jpg
+108596.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/108596.jpg
+108884.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108884.jpg
+101817.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101817.jpg
+108557.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/108557.jpg
+101898.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101898.jpg
+101464.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101464.jpg
+103763.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103763.jpg
+101424.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101424.jpg
+107844.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107844.jpg
+102284.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102284.jpg
+109328.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/109328.jpg
+107475.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/107475.jpg
+103687.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103687.jpg
+106330.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106330.jpg
+103514.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103514.jpg
+101385.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101385.jpg
+102862.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102862.jpg
+107878.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/107878.jpg
+102783.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102783.jpg
+108363.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108363.jpg
+107287.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/107287.jpg
+109785.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109785.jpg
+108810.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108810.jpg
+102782.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102782.jpg
+106547.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/106547.jpg
+102446.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102446.jpg
+109402.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109402.jpg
+101019.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101019.jpg
+103061.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103061.jpg
+107863.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107863.jpg
+109520.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109520.jpg
+104882.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/104882.jpg
+109795.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109795.jpg
+107583.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107583.jpg
+105532.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/105532.jpg
+102077.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102077.jpg
+103033.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/103033.jpg
+103719.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103719.jpg
+105830.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105830.jpg
+108053.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/108053.jpg
+106249.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106249.jpg
+106954.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106954.jpg
+108156.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/108156.jpg
+103319.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/103319.jpg
+102130.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102130.jpg
+103784.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103784.jpg
+106259.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/106259.jpg
+109469.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109469.jpg
+100632.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100632.jpg
+101393.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/101393.jpg
+107177.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107177.jpg
+103083.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/103083.jpg
+100948.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/100948.jpg
+109087.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/109087.jpg
+100160.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100160.jpg
+102249.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102249.jpg
+108056.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108056.jpg
+101688.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101688.jpg
+109405.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109405.jpg
+104613.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104613.jpg
+108125.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108125.jpg
+106557.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/106557.jpg
+110083.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/110083.jpg
+103357.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/103357.jpg
+107402.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/107402.jpg
+106448.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/106448.jpg
+104152.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104152.jpg
+103998.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103998.jpg
+100275.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/100275.jpg
+105498.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105498.jpg
+108147.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/108147.jpg
+110389.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/110389.jpg
+102726.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102726.jpg
+109324.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109324.jpg
+102580.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/102580.jpg
+105169.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105169.jpg
+109537.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109537.jpg
+103500.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/103500.jpg
+100549.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/100549.jpg
+109696.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/109696.jpg
+106260.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106260.jpg
+109320.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/109320.jpg
+108520.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/108520.jpg
+102777.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102777.jpg
+105652.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/105652.jpg
+102382.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102382.jpg
+101973.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101973.jpg
+107175.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/107175.jpg
+107251.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107251.jpg
+108709.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108709.jpg
+101811.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/101811.jpg
+107381.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/107381.jpg
+104772.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104772.jpg
+102557.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102557.jpg
+108567.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108567.jpg
+103182.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/103182.jpg
+104018.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/104018.jpg
+104617.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/104617.jpg
+107808.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/107808.jpg
+108096.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/108096.jpg
+107596.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107596.jpg
+103630.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/103630.jpg
+106899.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/106899.jpg
+108662.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108662.jpg
+102738.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/102738.jpg
+100330.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100330.jpg
+102731.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/102731.jpg
+100760.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/100760.jpg
+105300.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105300.jpg
+104597.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104597.jpg
+108073.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/108073.jpg
+104675.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/104675.jpg
+109336.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/109336.jpg
+107998.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/107998.jpg
+107098.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/107098.jpg
+102715.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/102715.jpg
+101888.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/101888.jpg
+105763.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/105763.jpg
+108975.jpg,brown_spot,Brown Spot,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/brown_spot/108975.jpg
+103127.jpg,bacterial_leaf_blight,Bacterial Leaf Blight,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/bacterial_leaf_blight/103127.jpg
+105811.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/105811.jpg
+109597.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/109597.jpg
+107819.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/107819.jpg
+104966.jpg,normal,Healthy,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/normal/104966.jpg
+104618.jpg,blast,Leaf Blast,/content/visikom_work/paddy_doctor/paddy-disease-classification/train_images/blast/104618.jpg
