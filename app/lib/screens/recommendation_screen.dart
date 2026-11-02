@@ -123,13 +123,13 @@ class RecommendationScreen extends StatelessWidget {
               width: double.infinity,
               child: ElevatedButton.icon(
                 icon: const Icon(Icons.phone_in_talk, size: 20),
-                label: const Text('Hubungi Petugas PPL Lapangan'),
+                label: const Text('Hubungi Petugas PPL Indramayu'),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: AppTheme.onSurface,
                 ),
                 onPressed: () {
                   ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(content: Text('Menghubungi Kontak PPL Wilayah Kerja...')),
+                    const SnackBar(content: Text('Menghubungi Balai Penyuluhan Pertanian (BPP) Kab. Indramayu...')),
                   );
                 },
               ),

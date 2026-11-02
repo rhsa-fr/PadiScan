@@ -26,6 +26,7 @@ class AppTheme {
   static ThemeData get lightTheme {
     return ThemeData(
       useMaterial3: true,
+      fontFamily: 'PlusJakartaSans',
       colorScheme: const ColorScheme.light(
         primary: primary,
         primaryContainer: primaryContainer,

@@ -148,7 +148,7 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
         leafAreaRatio: cvResult.leafAreaRatio,
         rejectReason: cvResult.rejectReason,
         timestamp: DateTime.now(),
-        plotName: 'Petak Sawah Subang Blok C',
+        plotName: 'Sawah Blok Jatibarang, Indramayu',
       );
 
       // 7. Simpan ke Riwayat Lokal
@@ -241,7 +241,7 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
                                 ),
                               ),
                               Text(
-                                'Subang, Blok C • Luring',
+                                'Indramayu, Jawa Barat • Luring',
                                 style: TextStyle(color: Colors.white60, fontSize: 10),
                               ),
                             ],

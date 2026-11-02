@@ -7,6 +7,7 @@ import '../models/diagnosis_result.dart';
 
 class HistoryService {
   static const String _key = 'padiscan_history_items';
+  static final ValueNotifier<int> historyNotifier = ValueNotifier<int>(0);
 
   static Future<List<DiagnosisResult>> getHistory() async {
     try {
@@ -36,6 +37,7 @@ class HistoryService {
 
       final rawList = history.map((item) => jsonEncode(item.toJson())).toList();
       await prefs.setStringList(_key, rawList);
+      historyNotifier.value++;
     } catch (e) {
       debugPrint('HistoryService saveResult error: $e');
     }
@@ -48,6 +50,7 @@ class HistoryService {
       history.removeWhere((item) => item.id == id);
       final rawList = history.map((item) => jsonEncode(item.toJson())).toList();
       await prefs.setStringList(_key, rawList);
+      historyNotifier.value++;
     } catch (e) {
       debugPrint('HistoryService deleteResult error: $e');
     }
@@ -56,6 +59,7 @@ class HistoryService {
   static Future<void> clearAll() async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.remove(_key);
+    historyNotifier.value++;
   }
 
   /// Salin berkas gambar sementara ke direktori permanen aplikasi

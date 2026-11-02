@@ -1,6 +1,7 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import '../services/classifier_service.dart';
+import '../services/history_service.dart';
 import '../theme/app_theme.dart';
 import 'education_screen.dart';
 import 'history_screen.dart';
@@ -33,7 +34,9 @@ class _MainNavigationShellState extends State<MainNavigationShell> {
         cameras: widget.cameras,
         classifierService: widget.classifierService,
       ),
-      const HistoryScreen(),
+      HistoryScreen(
+        onNavigateToScanner: () => setState(() => _currentIndex = 0),
+      ),
       const EducationScreen(),
     ];
   }
@@ -48,6 +51,9 @@ class _MainNavigationShellState extends State<MainNavigationShell> {
       bottomNavigationBar: NavigationBar(
         selectedIndex: _currentIndex,
         onDestinationSelected: (index) {
+          if (index == 1) {
+            HistoryService.historyNotifier.value++;
+          }
           setState(() => _currentIndex = index);
         },
         backgroundColor: AppTheme.surface,
