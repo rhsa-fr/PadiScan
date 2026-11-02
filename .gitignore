@@ -19,6 +19,7 @@ app/.pub/
 
 # Android build outputs in Flutter app (except release folder if any)
 app/android/.gradle/
+app/android/.kotlin/
 app/android/local.properties
 app/android/app/build/
 
@@ -36,3 +37,5 @@ Thumbs.db
 *.zip
 *.tar.gz
 *.tmp
+*.apk
+*.aab
