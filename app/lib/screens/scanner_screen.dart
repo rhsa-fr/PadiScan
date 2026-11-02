@@ -121,28 +121,133 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
       // 3. Jalankan Pengolahan Citra Klasik (Quality Gate + ExG + CIELab Lesion)
       final cvResult = CVPipelineService.process(decoded);
 
-      // 4. Simpan Mask Overlay Citra
+      // 4. Validasi Objek Bukan Daun: Munculkan Peringatan Modal
+      if (!cvResult.isLeaf) {
+        if (!mounted) return;
+        setState(() => _isProcessing = false);
+        final bool? continueAnyway = await showModalBottomSheet<bool>(
+          context: context,
+          backgroundColor: Colors.white,
+          shape: const RoundedRectangleBorder(
+            borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
+          ),
+          builder: (ctx) => Padding(
+            padding: const EdgeInsets.fromLTRB(24, 20, 24, 32),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Container(
+                  width: 48,
+                  height: 5,
+                  decoration: BoxDecoration(
+                    color: Colors.grey.shade300,
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                ),
+                const SizedBox(height: 20),
+                Container(
+                  padding: const EdgeInsets.all(16),
+                  decoration: const BoxDecoration(
+                    color: Color(0xFFFEF2F2),
+                    shape: BoxShape.circle,
+                  ),
+                  child: const Icon(Icons.warning_amber_rounded, size: 40, color: Color(0xFFDC2626)),
+                ),
+                const SizedBox(height: 16),
+                const Text(
+                  'Bukan Daun Padi Terdeteksi',
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Color(0xFF1E293B)),
+                ),
+                const SizedBox(height: 8),
+                const Text(
+                  'Citra yang Anda ambil tidak menunjukkan ciri klorofil atau jaringan daun padi. Hasil prediksi penyakit mungkin tidak valid.\n\nDisarankan untuk mengambil ulang foto daun secara tegak lurus.',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(fontSize: 13, color: Color(0xFF64748B), height: 1.4),
+                ),
+                const SizedBox(height: 24),
+                Row(
+                  children: [
+                    Expanded(
+                      child: OutlinedButton(
+                        onPressed: () => Navigator.pop(ctx, false),
+                        style: OutlinedButton.styleFrom(
+                          padding: const EdgeInsets.symmetric(vertical: 14),
+                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                        ),
+                        child: const Text('Foto Ulang', style: TextStyle(fontWeight: FontWeight.bold)),
+                      ),
+                    ),
+                    const SizedBox(width: 12),
+                    Expanded(
+                      child: ElevatedButton(
+                        onPressed: () => Navigator.pop(ctx, true),
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: const Color(0xFFDC2626),
+                          padding: const EdgeInsets.symmetric(vertical: 14),
+                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                        ),
+                        child: const Text('Tetap Analisis', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white)),
+                      ),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
+        );
+
+        if (continueAnyway != true || !mounted) {
+          return;
+        }
+        setState(() => _isProcessing = true);
+      }
+
+      // 5. Simpan Citra Tahapan Visi Komputer
       String? overlayPath;
+      String? exgPath;
+      String? leafMaskPath;
+      final appDir = await getApplicationDocumentsDirectory();
+      final scansDir = Directory('${appDir.path}/scans');
+      if (!scansDir.existsSync()) {
+        scansDir.createSync(recursive: true);
+      }
+
       if (cvResult.overlayImage != null) {
-        final appDir = await getApplicationDocumentsDirectory();
-        final overlayFile = File('${appDir.path}/scans/overlay_$scanId.jpg');
+        final overlayFile = File('${scansDir.path}/overlay_$scanId.jpg');
         await overlayFile.writeAsBytes(img.encodeJpg(cvResult.overlayImage!));
         overlayPath = overlayFile.path;
       }
+      if (cvResult.exgImage != null) {
+        final exgFile = File('${scansDir.path}/exg_$scanId.jpg');
+        await exgFile.writeAsBytes(img.encodeJpg(cvResult.exgImage!));
+        exgPath = exgFile.path;
+      }
+      if (cvResult.leafMaskImage != null) {
+        final leafFile = File('${scansDir.path}/leaf_$scanId.jpg');
+        await leafFile.writeAsBytes(img.encodeJpg(cvResult.leafMaskImage!));
+        leafMaskPath = leafFile.path;
+      }
 
-      // 5. Jalankan Klasifikasi CNN TFLite
-      final cnnResult = await widget.classifierService.predict(decoded);
+      // 6. Jalankan Klasifikasi CNN TFLite dengan Decision Fusion
+      final cnnResult = await widget.classifierService.predict(
+        decoded,
+        cvLesionRatio: cvResult.lesionRatio,
+        cvSeverityScore: cvResult.severityScore,
+      );
 
-      // 6. Bentuk objek DiagnosisResult
+      // 7. Bentuk objek DiagnosisResult
       final result = DiagnosisResult(
         id: scanId,
         imagePath: savedImagePath,
         overlayImagePath: overlayPath,
+        exgImagePath: exgPath,
+        leafMaskImagePath: leafMaskPath,
         predictedClass: cnnResult['predicted_class'] as String,
         confidence: cnnResult['confidence'] as double,
         severityScore: cvResult.severityScore,
         lesionRatio: cvResult.lesionRatio,
         qualityPassed: cvResult.qualityPassed,
+        isLeaf: cvResult.isLeaf,
         blurScore: cvResult.blurScore,
         brightness: cvResult.brightness,
         leafAreaRatio: cvResult.leafAreaRatio,
@@ -151,7 +256,7 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
         plotName: 'Sawah Blok Jatibarang, Indramayu',
       );
 
-      // 7. Simpan ke Riwayat Lokal
+      // 8. Simpan ke Riwayat Lokal
       await HistoryService.saveResult(result);
 
       if (mounted) {

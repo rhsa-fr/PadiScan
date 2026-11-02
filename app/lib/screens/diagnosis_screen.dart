@@ -15,14 +15,55 @@ class DiagnosisScreen extends StatefulWidget {
 }
 
 class _DiagnosisScreenState extends State<DiagnosisScreen> {
-  bool _showMask = false;
+  int _selectedStage = 0; // 0: Asli, 1: ExG Klorofil, 2: Mask Daun, 3: Peta Lesi
+
+  final List<Map<String, dynamic>> _stages = const [
+    {
+      'title': 'Foto Asli',
+      'short': '1. Asli',
+      'desc': 'Citra RGB asli masukan kamera tanpa manipulasi.',
+      'formula': 'Input RGB (224×224×3)',
+    },
+    {
+      'title': 'Indeks Klorofil (ExG)',
+      'short': '2. ExG',
+      'desc': 'Excess Green menonjolkan jaringan klorofil dan meredam latar tanah/air.',
+      'formula': 'ExG = (2G - R - B) / (R + G + B)',
+    },
+    {
+      'title': 'Mask Daun (Otsu)',
+      'short': '3. Mask Daun',
+      'desc': 'Segmentasi biner ambang batas Otsu dan penutupan morfologi (closing r=6).',
+      'formula': 'Otsu Binarization + Morph Close',
+    },
+    {
+      'title': 'Peta Lesi (CIELab)',
+      'short': '4. Peta Lesi',
+      'desc': 'Deteksi bercak nekrosis cokelat (CIELab a* > 4.0) dan klorosis hawar.',
+      'formula': 'CIELab a* > 4.0 ∪ Klorosis',
+    },
+  ];
+
+  String _getStageImagePath(DiagnosisResult res, int stage) {
+    if (stage == 1 && res.exgImagePath != null && File(res.exgImagePath!).existsSync()) {
+      return res.exgImagePath!;
+    }
+    if (stage == 2 && res.leafMaskImagePath != null && File(res.leafMaskImagePath!).existsSync()) {
+      return res.leafMaskImagePath!;
+    }
+    if (stage == 3 && res.overlayImagePath != null && File(res.overlayImagePath!).existsSync()) {
+      return res.overlayImagePath!;
+    }
+    return res.imagePath;
+  }
 
   Color _getDiseaseColor(String disease) {
-    if (disease.toLowerCase().contains('healthy')) {
+    final d = disease.toLowerCase();
+    if (d.contains('sehat') || d.contains('healthy')) {
       return AppTheme.primaryContainer;
-    } else if (disease.toLowerCase().contains('blast')) {
+    } else if (d.contains('blas') || d.contains('blast')) {
       return const Color(0xFFC2410C); // burnt orange
-    } else if (disease.toLowerCase().contains('blight')) {
+    } else if (d.contains('kresek') || d.contains('blight') || d.contains('hawar daun bakteri')) {
       return const Color(0xFFB91C1C); // red
     } else {
       return const Color(0xFFB45309); // amber
@@ -30,21 +71,21 @@ class _DiagnosisScreenState extends State<DiagnosisScreen> {
   }
 
   String _getLatinName(String disease) {
-    switch (disease) {
-      case 'Leaf Blast':
-        return 'Pyricularia oryzae';
-      case 'Brown Spot':
-        return 'Bipolaris oryzae';
-      case 'Bacterial Leaf Blight':
-        return 'Xanthomonas oryzae pv. oryzae';
-      case 'Healthy':
-        return 'Tanaman Sehat Bebas Gejala';
-      case 'Leaf Scald':
-        return 'Microdochium oryzae';
-      case 'Sheath Blight':
-        return 'Rhizoctonia solani';
-      default:
-        return 'Patogen Daun Padi';
+    final d = disease.toLowerCase();
+    if (d.contains('blas') || d.contains('blast')) {
+      return 'Pyricularia oryzae';
+    } else if (d.contains('bercak') || d.contains('brown')) {
+      return 'Bipolaris oryzae';
+    } else if (d.contains('kresek') || d.contains('hawar daun bakteri') || (d.contains('blight') && d.contains('bacterial'))) {
+      return 'Xanthomonas oryzae pv. oryzae';
+    } else if (d.contains('sehat') || d.contains('healthy')) {
+      return 'Tanaman Sehat Bebas Gejala';
+    } else if (d.contains('bergaris') || d.contains('scald')) {
+      return 'Microdochium oryzae';
+    } else if (d.contains('pelepah') || d.contains('sheath')) {
+      return 'Rhizoctonia solani';
+    } else {
+      return 'Patogen Daun Padi';
     }
   }
 
@@ -52,7 +93,6 @@ class _DiagnosisScreenState extends State<DiagnosisScreen> {
   Widget build(BuildContext context) {
     final res = widget.result;
     final diseaseColor = _getDiseaseColor(res.predictedClass);
-    final hasOverlay = res.overlayImagePath != null && File(res.overlayImagePath!).existsSync();
 
     return Scaffold(
       appBar: AppBar(
@@ -88,42 +128,174 @@ class _DiagnosisScreenState extends State<DiagnosisScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // 1. Tampilan Gambar dengan Toggle Mask Lesi
-            ClipRRect(
-              borderRadius: BorderRadius.circular(16),
-              child: Stack(
-                alignment: Alignment.bottomRight,
-                children: [
-                  Container(
-                    height: 260,
-                    width: double.infinity,
-                    color: Colors.black,
-                    child: _showMask && hasOverlay
-                        ? Image.file(File(res.overlayImagePath!), fit: BoxFit.contain)
-                        : Image.file(File(res.imagePath), fit: BoxFit.contain),
-                  ),
-                  if (hasOverlay)
-                    Padding(
-                      padding: const EdgeInsets.all(12),
-                      child: Container(
-                        decoration: BoxDecoration(
-                          color: Colors.black.withValues(alpha: 0.75),
-                          borderRadius: BorderRadius.circular(20),
-                        ),
-                        child: Row(
-                          mainAxisSize: MainAxisSize.min,
-                          children: [
-                            _buildToggleBtn('Foto Asli', !_showMask, () => setState(() => _showMask = false)),
-                            _buildToggleBtn('Mask Lesi', _showMask, () => setState(() => _showMask = true)),
-                          ],
+            // Peringatan Objek Bukan Daun
+            if (!res.isLeaf)
+              Container(
+                margin: const EdgeInsets.only(bottom: 12),
+                padding: const EdgeInsets.all(12),
+                decoration: BoxDecoration(
+                  color: const Color(0xFFFEF2F2),
+                  borderRadius: BorderRadius.circular(12),
+                  border: Border.all(color: const Color(0xFFFECACA)),
+                ),
+                child: Row(
+                  children: const [
+                    Icon(Icons.warning_amber_rounded, color: Color(0xFFDC2626), size: 24),
+                    SizedBox(width: 10),
+                    Expanded(
+                      child: Text(
+                        'Peringatan: Citra tidak terdeteksi sebagai daun padi asli. Hasil prediksi ini mungkin tidak akurat.',
+                        style: TextStyle(
+                          color: Color(0xFF991B1B),
+                          fontSize: 12,
+                          fontWeight: FontWeight.w600,
                         ),
                       ),
                     ),
+                  ],
+                ),
+              ),
+
+            // 1. Tampilan Gambar dengan Switcher 4 Tahap Visi Komputer
+            ClipRRect(
+              borderRadius: BorderRadius.circular(16),
+              child: Stack(
+                alignment: Alignment.bottomCenter,
+                children: [
+                  Container(
+                    height: 270,
+                    width: double.infinity,
+                    color: Colors.black,
+                    child: Image.file(
+                      File(_getStageImagePath(res, _selectedStage)),
+                      fit: BoxFit.contain,
+                    ),
+                  ),
+                  // Stage Switcher Chips Bar di bawah gambar
+                  Container(
+                    width: double.infinity,
+                    padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        begin: Alignment.bottomCenter,
+                        end: Alignment.topCenter,
+                        colors: [
+                          Colors.black.withValues(alpha: 0.85),
+                          Colors.transparent,
+                        ],
+                      ),
+                    ),
+                    child: SingleChildScrollView(
+                      scrollDirection: Axis.horizontal,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: List.generate(_stages.length, (idx) {
+                          final isSelected = _selectedStage == idx;
+                          final stage = _stages[idx];
+                          return Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 3),
+                            child: GestureDetector(
+                              onTap: () => setState(() => _selectedStage = idx),
+                              child: AnimatedContainer(
+                                duration: const Duration(milliseconds: 150),
+                                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+                                decoration: BoxDecoration(
+                                  color: isSelected
+                                      ? AppTheme.primaryContainer
+                                      : Colors.black.withValues(alpha: 0.6),
+                                  borderRadius: BorderRadius.circular(12),
+                                  border: Border.all(
+                                    color: isSelected
+                                        ? const Color(0xFF4ADE80)
+                                        : Colors.white24,
+                                    width: isSelected ? 1.5 : 0.8,
+                                  ),
+                                ),
+                                child: Text(
+                                  stage['short'] as String,
+                                  style: TextStyle(
+                                    color: isSelected ? Colors.white : Colors.white70,
+                                    fontSize: 11,
+                                    fontWeight: isSelected ? FontWeight.bold : FontWeight.w500,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          );
+                        }),
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
 
-            const SizedBox(height: 16),
+            const SizedBox(height: 8),
+
+            // Keterangan Tahap Pengolahan Citra Digital Terpilih
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+              decoration: BoxDecoration(
+                color: AppTheme.surfaceContainerLow,
+                borderRadius: BorderRadius.circular(12),
+                border: Border.all(color: const Color(0xFFE2E8F0)),
+              ),
+              child: Row(
+                children: [
+                  Container(
+                    padding: const EdgeInsets.all(6),
+                    decoration: BoxDecoration(
+                      color: AppTheme.primaryContainer.withValues(alpha: 0.12),
+                      shape: BoxShape.circle,
+                    ),
+                    child: Text(
+                      '${_selectedStage + 1}',
+                      style: const TextStyle(
+                        fontSize: 12,
+                        fontWeight: FontWeight.bold,
+                        color: AppTheme.primaryContainer,
+                      ),
+                    ),
+                  ),
+                  const SizedBox(width: 10),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              _stages[_selectedStage]['title'] as String,
+                              style: const TextStyle(
+                                fontSize: 13,
+                                fontWeight: FontWeight.bold,
+                                color: AppTheme.onSurface,
+                              ),
+                            ),
+                            Text(
+                              _stages[_selectedStage]['formula'] as String,
+                              style: const TextStyle(
+                                fontSize: 10,
+                                fontWeight: FontWeight.w600,
+                                color: AppTheme.secondary,
+                              ),
+                            ),
+                          ],
+                        ),
+                        const SizedBox(height: 2),
+                        Text(
+                          _stages[_selectedStage]['desc'] as String,
+                          style: const TextStyle(fontSize: 11, color: AppTheme.secondary, height: 1.3),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+
+            const SizedBox(height: 14),
 
             // 2. Kartu Nama Penyakit & Tingkat Keyakinan
             Card(
@@ -317,7 +489,8 @@ class _DiagnosisScreenState extends State<DiagnosisScreen> {
             const SizedBox(height: 20),
 
             // 4. Tombol Aksi
-            if (!res.predictedClass.toLowerCase().contains('healthy'))
+            if (!res.predictedClass.toLowerCase().contains('healthy') &&
+                !res.predictedClass.toLowerCase().contains('sehat'))
               SizedBox(
                 width: double.infinity,
                 child: ElevatedButton.icon(
@@ -347,27 +520,6 @@ class _DiagnosisScreenState extends State<DiagnosisScreen> {
             ),
             const SizedBox(height: 20),
           ],
-        ),
-      ),
-    );
-  }
-
-  Widget _buildToggleBtn(String label, bool active, VoidCallback onTap) {
-    return GestureDetector(
-      onTap: onTap,
-      child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-        decoration: BoxDecoration(
-          color: active ? AppTheme.primaryContainer : Colors.transparent,
-          borderRadius: BorderRadius.circular(16),
-        ),
-        child: Text(
-          label,
-          style: TextStyle(
-            fontSize: 12,
-            fontWeight: active ? FontWeight.bold : FontWeight.normal,
-            color: active ? Colors.white : Colors.white70,
-          ),
         ),
       ),
     );

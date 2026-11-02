@@ -8,26 +8,34 @@ class RecommendationScreen extends StatelessWidget {
   const RecommendationScreen({super.key, required this.result});
 
   Map<String, dynamic> _getRecommendations(String disease, int severity) {
-    if (disease == 'Leaf Blast') {
+    final d = disease.toLowerCase();
+    if (d.contains('blas') || d.contains('blast')) {
       return {
         'urgency': 'Tindakan diperlukan dalam 24–48 jam untuk mencegah infeksi busuk leher malai (neck blast).',
         'chemical': 'Semprot fungisida berbahan aktif Trisiklazol (contoh: Beam 75 WP) dosis 1.5–2.0 g/L atau Difenokonazol (Score 250 EC) dosis 1.5 ml/L.',
         'cultural': 'Hentikan aplikasi pupuk Urea/Nitrogen berlebih. Tambahkan pupuk Kalium (KCL) dosis 50 kg/ha untuk memperkuat dinding sel daun.',
         'water': 'Terapkan pengairan berselang (intermittent). Keringkan petak sawah selama 3-4 hari untuk menurunkan kelembapan kanopi tanaman.',
       };
-    } else if (disease == 'Brown Spot') {
+    } else if (d.contains('bercak') || d.contains('brown')) {
       return {
         'urgency': 'Bercak cokelat mengindikasikan ketidakseimbangan hara tanah atau kekurangan Kalium & Silika.',
         'chemical': 'Aplikasi fungisida berbahan aktif Mankozeb 80% (Dithane M-45) dosis 2.0 g/L atau Azoksistrobin + Difenokonazol dosis 1.0 ml/L.',
         'cultural': 'Beri pupuk berimbang N-P-K dan tambahkan pupuk silika organik. Perbaiki drainase lahan agar tanah tidak terlalu masam.',
         'water': 'Pertahankan genangan air dangkal (2–3 cm) untuk mencegah kekeringan mikro pada perakaran padi.',
       };
-    } else if (disease == 'Bacterial Leaf Blight') {
+    } else if (d.contains('kresek') || d.contains('hawar daun bakteri') || (d.contains('blight') && d.contains('bacterial'))) {
       return {
         'urgency': 'Penyakit bakteri sistemik (Kresek). Jangan gunakan fungisida biasa karena tidak efektif terhadap bakteri.',
         'chemical': 'Gunakan bakterisida berbahan aktif Oksitetrasiklin atau Tembaga Hidroksida (Kocide 54 WDG) dosis 1.5 g/L. Semprot saat pagi hari.',
         'cultural': 'Kurangi dosis Urea hingga 30%. Buang dan bakar daun yang terserang parah dari pematang.',
         'water': 'Keringkan sawah dan hindari pengaliran air dari petak yang terinfeksi ke petak yang masih sehat.',
+      };
+    } else if (d.contains('sehat') || d.contains('healthy')) {
+      return {
+        'urgency': 'Kondisi tanaman sehat prima. Terus pantau kebersihan pematang secara berkala.',
+        'chemical': 'Tidak diperlukan pestisida sintetis. Berikan pupuk hayati atau mikroba pengurai bila perlu.',
+        'cultural': 'Pertahankan pemupukan berimbang N-P-K sesuai anjuran rekomendasi penyuluh pertanian setempat.',
+        'water': 'Pertahankan pengairan teratur sesuai siklus umur tanaman.',
       };
     } else {
       return {

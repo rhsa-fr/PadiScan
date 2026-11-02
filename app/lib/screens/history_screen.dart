@@ -28,10 +28,10 @@ class _HistoryScreenState extends State<HistoryScreen> {
   final List<String> _filters = [
     'Semua',
     'Perlu Tindakan',
-    'Leaf Blast',
-    'Brown Spot',
-    'Bacterial Leaf Blight',
-    'Healthy',
+    'Hawar (Kresek)',
+    'Bercak Cokelat',
+    'Blas Daun',
+    'Padi Sehat',
   ];
 
   @override
@@ -65,7 +65,34 @@ class _HistoryScreenState extends State<HistoryScreen> {
   List<DiagnosisResult> get _filteredHistory {
     if (_activeFilter == 'Semua') return _history;
     if (_activeFilter == 'Perlu Tindakan') {
-      return _history.where((item) => !item.predictedClass.toLowerCase().contains('healthy')).toList();
+      return _history.where((item) {
+        final d = item.predictedClass.toLowerCase();
+        return !d.contains('healthy') && !d.contains('sehat');
+      }).toList();
+    }
+    if (_activeFilter == 'Hawar (Kresek)') {
+      return _history.where((item) {
+        final d = item.predictedClass.toLowerCase();
+        return d.contains('kresek') || d.contains('hawar daun bakteri') || (d.contains('blight') && d.contains('bacterial'));
+      }).toList();
+    }
+    if (_activeFilter == 'Bercak Cokelat') {
+      return _history.where((item) {
+        final d = item.predictedClass.toLowerCase();
+        return d.contains('bercak') || d.contains('brown');
+      }).toList();
+    }
+    if (_activeFilter == 'Blas Daun') {
+      return _history.where((item) {
+        final d = item.predictedClass.toLowerCase();
+        return d.contains('blas') || d.contains('blast');
+      }).toList();
+    }
+    if (_activeFilter == 'Padi Sehat') {
+      return _history.where((item) {
+        final d = item.predictedClass.toLowerCase();
+        return d.contains('sehat') || d.contains('healthy');
+      }).toList();
     }
     return _history.where((item) => item.predictedClass == _activeFilter).toList();
   }
@@ -73,19 +100,46 @@ class _HistoryScreenState extends State<HistoryScreen> {
   int _countForFilter(String filter) {
     if (filter == 'Semua') return _history.length;
     if (filter == 'Perlu Tindakan') {
-      return _history.where((item) => !item.predictedClass.toLowerCase().contains('healthy')).length;
+      return _history.where((item) {
+        final d = item.predictedClass.toLowerCase();
+        return !d.contains('healthy') && !d.contains('sehat');
+      }).length;
+    }
+    if (filter == 'Hawar (Kresek)') {
+      return _history.where((item) {
+        final d = item.predictedClass.toLowerCase();
+        return d.contains('kresek') || d.contains('hawar daun bakteri') || (d.contains('blight') && d.contains('bacterial'));
+      }).length;
+    }
+    if (filter == 'Bercak Cokelat') {
+      return _history.where((item) {
+        final d = item.predictedClass.toLowerCase();
+        return d.contains('bercak') || d.contains('brown');
+      }).length;
+    }
+    if (filter == 'Blas Daun') {
+      return _history.where((item) {
+        final d = item.predictedClass.toLowerCase();
+        return d.contains('blas') || d.contains('blast');
+      }).length;
+    }
+    if (filter == 'Padi Sehat') {
+      return _history.where((item) {
+        final d = item.predictedClass.toLowerCase();
+        return d.contains('sehat') || d.contains('healthy');
+      }).length;
     }
     return _history.where((item) => item.predictedClass == filter).length;
   }
 
   String _getLatinTaxonomy(String disease) {
     final lower = disease.toLowerCase();
-    if (lower.contains('blast')) return 'Pyricularia oryzae';
-    if (lower.contains('brown')) return 'Bipolaris oryzae';
-    if (lower.contains('blight') && lower.contains('bacterial')) return 'Xanthomonas oryzae pv. oryzae';
-    if (lower.contains('scald')) return 'Microdochium oryzae';
-    if (lower.contains('sheath')) return 'Rhizoctonia solani';
-    if (lower.contains('healthy')) return 'Oryza sativa (Tanaman Sehat)';
+    if (lower.contains('blas') || lower.contains('blast')) return 'Pyricularia oryzae';
+    if (lower.contains('bercak') || lower.contains('brown')) return 'Bipolaris oryzae';
+    if (lower.contains('kresek') || lower.contains('hawar daun bakteri') || (lower.contains('blight') && lower.contains('bacterial'))) return 'Xanthomonas oryzae pv. oryzae';
+    if (lower.contains('bergaris') || lower.contains('scald')) return 'Microdochium oryzae';
+    if (lower.contains('pelepah') || lower.contains('sheath')) return 'Rhizoctonia solani';
+    if (lower.contains('sehat') || lower.contains('healthy')) return 'Oryza sativa (Tanaman Sehat)';
     return 'Tanaman Padi Indramayu';
   }
 
@@ -108,7 +162,10 @@ class _HistoryScreenState extends State<HistoryScreen> {
   @override
   Widget build(BuildContext context) {
     final totalScans = _history.length;
-    final infectedCount = _history.where((i) => !i.predictedClass.toLowerCase().contains('healthy')).length;
+    final infectedCount = _history.where((i) {
+      final d = i.predictedClass.toLowerCase();
+      return !d.contains('healthy') && !d.contains('sehat');
+    }).length;
     final healthyCount = totalScans - infectedCount;
     final infectedPct = totalScans > 0 ? (infectedCount / totalScans * 100).toStringAsFixed(1) : '0';
     final healthyPct = totalScans > 0 ? (healthyCount / totalScans * 100).toStringAsFixed(1) : '0';
@@ -568,7 +625,8 @@ class _HistoryScreenState extends State<HistoryScreen> {
                         itemCount: _filteredHistory.length,
                         itemBuilder: (context, index) {
                           final item = _filteredHistory[index];
-                          final isInfected = !item.predictedClass.toLowerCase().contains('healthy');
+                          final d = item.predictedClass.toLowerCase();
+                          final isInfected = !d.contains('healthy') && !d.contains('sehat');
                           final severityColor = _getSeverityColor(item.severityScore);
                           final latinTaxonomy = _getLatinTaxonomy(item.predictedClass);
                           final timeStr = DateFormat('HH:mm • dd MMM yyyy').format(item.timestamp);

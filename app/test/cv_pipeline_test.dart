@@ -29,9 +29,24 @@ void main() {
 
     expect(result.brightness, greaterThan(30.0));
     expect(result.leafAreaRatio, greaterThan(0.05));
+    expect(result.isLeaf, isTrue);
     expect(result.lesionRatio, greaterThan(0.0));
     expect(result.severityScore, greaterThanOrEqualTo(1));
     expect(result.overlayImage, isNotNull);
+    expect(result.exgImage, isNotNull);
+    expect(result.leafMaskImage, isNotNull);
+  });
+
+  test('CV Pipeline: Deteksi dan tolak citra bukan daun (non-leaf)', () {
+    // Buat citra sintetis meja/kulit kayu cokelat 100x100 tanpa klorofil
+    final nonLeafImg = img.Image(width: 100, height: 100);
+    img.fill(nonLeafImg, color: img.ColorRgb8(195, 145, 110)); // warna cokelat kayu / kulit
+
+    final result = CVPipelineService.process(nonLeafImg);
+
+    expect(result.isLeaf, isFalse);
+    expect(result.qualityPassed, isFalse);
+    expect(result.rejectReason, contains('bukan daun'));
   });
 
   test('DiagnosisResult: Serialisasi dan Deserialisasi JSON', () {
@@ -40,11 +55,14 @@ void main() {
       id: 'test_123',
       imagePath: '/path/to/img.jpg',
       overlayImagePath: '/path/to/overlay.jpg',
-      predictedClass: 'Leaf Blast',
+      exgImagePath: '/path/to/exg.jpg',
+      leafMaskImagePath: '/path/to/leaf.jpg',
+      predictedClass: 'Blas Daun (Penyakit Blas)',
       confidence: 0.967,
       severityScore: 2,
       lesionRatio: 0.084,
       qualityPassed: true,
+      isLeaf: true,
       blurScore: 1250.5,
       brightness: 128.4,
       leafAreaRatio: 0.155,
@@ -59,6 +77,9 @@ void main() {
     expect(restored.predictedClass, original.predictedClass);
     expect(restored.confidence, original.confidence);
     expect(restored.severityScore, 2);
+    expect(restored.isLeaf, isTrue);
+    expect(restored.exgImagePath, '/path/to/exg.jpg');
+    expect(restored.leafMaskImagePath, '/path/to/leaf.jpg');
     expect(restored.severityLabel, 'Tingkat 2 (Sedang)');
     expect(restored.plotName, 'Petak Sawah Ciherang');
   });

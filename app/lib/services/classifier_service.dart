@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:math';
 import 'package:flutter/foundation.dart';
 import 'package:image/image.dart' as img;
 import 'package:tflite_flutter/tflite_flutter.dart';
@@ -7,6 +8,15 @@ class ClassifierService {
   Interpreter? _interpreter;
 
   static const List<String> classNames = [
+    'Hawar Daun Bakteri (Kresek)',
+    'Bercak Cokelat Daun',
+    'Padi Sehat (Bebas Penyakit)',
+    'Blas Daun (Penyakit Blas)',
+    'Hawar Daun Bergaris (Scald)',
+    'Busuk Pelepah Daun',
+  ];
+
+  static const List<String> rawClassNames = [
     'Bacterial Leaf Blight',
     'Brown Spot',
     'Healthy',
@@ -33,8 +43,30 @@ class ClassifierService {
     }
   }
 
+  /// Kalibrasi probabilitas dengan penajaman temperatur (T=0.65)
+  /// untuk mengimbangi label smoothing (0.15 saat training)
+  static List<double> _calibrateProbabilities(List<double> probs, {double temperature = 0.65}) {
+    double sum = 0.0;
+    final List<double> scaled = List.filled(probs.length, 0.0);
+    for (int i = 0; i < probs.length; i++) {
+      scaled[i] = pow(max(probs[i], 1e-6), 1.0 / temperature).toDouble();
+      sum += scaled[i];
+    }
+    if (sum > 0) {
+      for (int i = 0; i < probs.length; i++) {
+        scaled[i] = scaled[i] / sum;
+      }
+    }
+    return scaled;
+  }
+
   /// Prediksi citra dari path berkas atau objek img.Image
-  Future<Map<String, dynamic>> predict(dynamic imageInput) async {
+  /// Dilengkapi Decision Fusion dengan cabang CV untuk memvalidasi kasus hawar vs sehat
+  Future<Map<String, dynamic>> predict(
+    dynamic imageInput, {
+    double cvLesionRatio = 0.0,
+    int cvSeverityScore = 0,
+  }) async {
     if (_interpreter == null) {
       await loadModel();
     }
@@ -87,7 +119,9 @@ class ClassifierService {
     // Jalankan inferensi TFLite
     _interpreter!.run(input, output);
 
-    final probabilities = output[0];
+    final rawProbabilities = output[0];
+    final probabilities = _calibrateProbabilities(rawProbabilities);
+
     int maxIdx = 0;
     double maxConf = probabilities[0];
 
@@ -98,8 +132,25 @@ class ClassifierService {
       }
     }
 
+    // Decision Fusion: Mencegah Hawar Daun Bakteri (Kresek) salah didiagnosis Sehat
+    // Jika CNN menebak Sehat (index 2), namun cabang CV mendeteksi lesi aktif
+    if (maxIdx == 2 && (cvLesionRatio >= 0.010 || cvSeverityScore >= 1)) {
+      int bestDiseaseIdx = 0;
+      double bestDiseaseProb = -1.0;
+      for (int i = 0; i < probabilities.length; i++) {
+        if (i == 2) continue; // Singkirkan pilihan Sehat
+        if (probabilities[i] > bestDiseaseProb) {
+          bestDiseaseProb = probabilities[i];
+          bestDiseaseIdx = i;
+        }
+      }
+      maxIdx = bestDiseaseIdx;
+      maxConf = probabilities[bestDiseaseIdx];
+    }
+
     return {
       'predicted_class': classNames[maxIdx],
+      'raw_class': rawClassNames[maxIdx],
       'confidence': maxConf,
       'probabilities': probabilities,
     };

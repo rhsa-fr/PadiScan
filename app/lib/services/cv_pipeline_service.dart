@@ -3,6 +3,7 @@ import 'package:image/image.dart' as img;
 
 class CVPipelineResult {
   final bool qualityPassed;
+  final bool isLeaf;
   final double blurScore;
   final double brightness;
   final double leafAreaRatio;
@@ -10,9 +11,12 @@ class CVPipelineResult {
   final double lesionRatio;
   final int severityScore;
   final img.Image? overlayImage;
+  final img.Image? exgImage;
+  final img.Image? leafMaskImage;
 
   CVPipelineResult({
     required this.qualityPassed,
+    this.isLeaf = true,
     required this.blurScore,
     required this.brightness,
     required this.leafAreaRatio,
@@ -20,6 +24,8 @@ class CVPipelineResult {
     required this.lesionRatio,
     required this.severityScore,
     this.overlayImage,
+    this.exgImage,
+    this.leafMaskImage,
   });
 }
 
@@ -113,7 +119,23 @@ class CVPipelineService {
       rejectReasons.add('Daun terlalu kecil/jauh (${(leafAreaRatio * 100).toStringAsFixed(1)}% < 6%)');
     }
 
-    // 6. Deteksi Lesi pada piksel daun dengan CIELab kanal a*
+    // Validasi apakah objek merupakan daun / jaringan vegetasi tanaman
+    double totalExg = 0.0;
+    int greenVegCount = 0;
+    for (int i = 0; i < totalPixels; i++) {
+      totalExg += exgValues[i];
+      if (exgValues[i] > 0.05) {
+        greenVegCount++;
+      }
+    }
+    final double meanExg = totalExg / totalPixels;
+    final double greenVegRatio = greenVegCount / totalPixels;
+    final bool isLeaf = greenVegRatio >= 0.05 && meanExg > -0.05 && leafAreaRatio >= 0.04;
+    if (!isLeaf) {
+      rejectReasons.add('Objek bukan daun padi (tidak terdeteksi klorofil/jaringan tanaman)');
+    }
+
+    // 6. Deteksi Lesi pada piksel daun dengan CIELab kanal a* & Klorosis ExG
     final List<bool> lesionMask = List.filled(totalPixels, false);
     int lesionPixelCount = 0;
 
@@ -123,8 +145,8 @@ class CVPipelineService {
         if (leafMask[idx]) {
           final p = workingImg.getPixel(x, y);
           final double aStar = _computeCieLabA(p.r.toDouble(), p.g.toDouble(), p.b.toDouble());
-          // a_opencv = a* + 128 > 132  =>  a* > 4.0
-          if (aStar > 4.0) {
+          // a* > 4.0 (nekrosis cokelat/merah) ATAU klorosis hawar menguning (ExG < 0.05 pada area daun)
+          if (aStar > 4.0 || exgValues[idx] < 0.05) {
             lesionMask[idx] = true;
             lesionPixelCount++;
           }
@@ -148,7 +170,26 @@ class CVPipelineService {
       severityScore = 1;
     }
 
-    // 7. Buat citra overlay visual lesi
+    // 7. Buat citra intermediate tahapan visi komputer
+    // 7a. Citra Indeks Klorofil ExG (Grayscale 8-bit)
+    final img.Image exgImg = img.Image(width: width, height: height);
+    for (int y = 0; y < height; y++) {
+      for (int x = 0; x < width; x++) {
+        final int val = exg8Bit[y * width + x];
+        exgImg.setPixelRgb(x, y, val, val, val);
+      }
+    }
+
+    // 7b. Citra Mask Daun Segmentasi Otsu + Closing (Biner Hitam Putih)
+    final img.Image leafMaskImg = img.Image(width: width, height: height);
+    for (int y = 0; y < height; y++) {
+      for (int x = 0; x < width; x++) {
+        final int val = leafMask[y * width + x] ? 255 : 0;
+        leafMaskImg.setPixelRgb(x, y, val, val, val);
+      }
+    }
+
+    // 7c. Citra Peta Overlay Lesi CIELab + Klorosis
     final img.Image overlayImg = workingImg.clone();
     idx = 0;
     for (int y = 0; y < height; y++) {
@@ -169,6 +210,7 @@ class CVPipelineService {
 
     return CVPipelineResult(
       qualityPassed: qualityPassed,
+      isLeaf: isLeaf,
       blurScore: blurScore,
       brightness: brightness,
       leafAreaRatio: leafAreaRatio,
@@ -176,6 +218,8 @@ class CVPipelineService {
       lesionRatio: lesionRatio,
       severityScore: severityScore,
       overlayImage: overlayImg,
+      exgImage: exgImg,
+      leafMaskImage: leafMaskImg,
     );
   }
 
