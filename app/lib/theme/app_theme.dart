@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class AppTheme {
   static const Color primary = Color(0xFF00652C);
@@ -24,9 +25,13 @@ class AppTheme {
   static const Color errorContainer = Color(0xFFFFDAD6);
 
   static ThemeData get lightTheme {
+    final baseTextTheme = GoogleFonts.plusJakartaSansTextTheme();
+
     return ThemeData(
       useMaterial3: true,
       fontFamily: 'PlusJakartaSans',
+      textTheme: baseTextTheme,
+      primaryTextTheme: baseTextTheme,
       colorScheme: const ColorScheme.light(
         primary: primary,
         primaryContainer: primaryContainer,
@@ -36,13 +41,13 @@ class AppTheme {
         error: error,
       ),
       scaffoldBackgroundColor: surface,
-      appBarTheme: const AppBarTheme(
+      appBarTheme: AppBarTheme(
         backgroundColor: surface,
         elevation: 0,
         scrolledUnderElevation: 0,
         centerTitle: false,
-        iconTheme: IconThemeData(color: onSurface),
-        titleTextStyle: TextStyle(
+        iconTheme: const IconThemeData(color: onSurface),
+        titleTextStyle: GoogleFonts.plusJakartaSans(
           color: onSurface,
           fontSize: 18,
           fontWeight: FontWeight.bold,
@@ -65,7 +70,7 @@ class AppTheme {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(12),
           ),
-          textStyle: const TextStyle(
+          textStyle: GoogleFonts.plusJakartaSans(
             fontSize: 15,
             fontWeight: FontWeight.bold,
           ),

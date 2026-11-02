@@ -41,6 +41,7 @@ dependencies:
   path_provider: ^2.1.5
   shared_preferences: ^2.5.5
   intl: ^0.20.3
+  google_fonts: ^8.1.0
 
 dev_dependencies:
   flutter_test:
@@ -68,11 +69,21 @@ flutter:
     - assets/models/visikom_mobilenetv2_float16.tflite
     - assets/icons/padiscan_logo.svg
     - assets/icons/padiscan_app_icon.svg
+    - assets/google_fonts/
 
   fonts:
     - family: PlusJakartaSans
       fonts:
-        - asset: assets/fonts/PlusJakartaSans.ttf
+        - asset: assets/fonts/PlusJakartaSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/PlusJakartaSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/PlusJakartaSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PlusJakartaSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/PlusJakartaSans-ExtraBold.ttf
+          weight: 800
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
