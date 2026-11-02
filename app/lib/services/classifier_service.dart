@@ -115,8 +115,9 @@ class ClassifierService {
     }
 
     // Decision Fusion: Mencegah Hawar Daun Bakteri (Kresek) salah didiagnosis Sehat
-    // Jika CNN menebak Sehat (index 2), namun cabang CV mendeteksi lesi aktif
-    if (maxIdx == 2 && (cvLesionRatio >= 0.010 || cvSeverityScore >= 1)) {
+    // Hanya picu jika lesi aktif signifikan (severity >= 2 dan rasio lesi >= 5%)
+    // serta probabilitas kelas penyakit memiliki bobot nyata (>= 15%)
+    if (maxIdx == 2 && cvSeverityScore >= 2 && cvLesionRatio >= 0.05) {
       int bestDiseaseIdx = 0;
       double bestDiseaseProb = -1.0;
       for (int i = 0; i < probabilities.length; i++) {
@@ -126,8 +127,10 @@ class ClassifierService {
           bestDiseaseIdx = i;
         }
       }
-      maxIdx = bestDiseaseIdx;
-      maxConf = probabilities[bestDiseaseIdx];
+      if (bestDiseaseProb >= 0.15) {
+        maxIdx = bestDiseaseIdx;
+        maxConf = probabilities[bestDiseaseIdx];
+      }
     }
 
     return {
